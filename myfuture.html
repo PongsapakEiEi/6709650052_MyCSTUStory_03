@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Future</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        /* สไตล์พื้นฐาน */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .main-title {
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .image-m {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-m img {
+            max-width: 150px;
+            width: 100%;
+            height: auto;
+        }
+
+        /* สำหรับหน้าจอขนาดเล็ก (Mobile) */
+        @media (max-width: 767px) {
+            .main-title {
+                font-size: 1.8em;
+            }
+            nav a {
+                padding: 10px;
+                font-size: 0.9em;
+            }
+            .container {
+                padding: 15px;
+            }
+            h2 {
+                font-size: 1.2em;
+            }
+            p, li {
+                font-size: 1em;
+            }
+            ul {
+                padding-left: 15px;
+            }
+            .image-m img {
+                max-width: 120px;
+            }
+        }
+
+        /* สำหรับหน้าจอขนาดกลาง (Tablet) */
+        @media (min-width: 768px) {
+            .main-title {
+                font-size: 2.5em;
+            }
+            nav a {
+                padding: 14px 25px;
+            }
+        }
+
+        /* สำหรับหน้าจอขนาดใหญ่ (Desktop) */
+        @media (min-width: 1024px) {
+            .main-title {
+                font-size: 3em;
+            }
+            nav a {
+                padding: 14px 30px;
+            }
+            .container {
+                padding: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- เมนู -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="myfuture.html">My Future</a>
+        <a href="myjourney.html">My Journey</a>
+    </nav>
+
+    <!-- เนื้อหาหลักของหน้า -->
+    <div class="container">
+        <h1 class="main-title">My Future</h1>
+        <p>In the future, I want to pursue a career related to coding and also aspire to have a family. I dream of owning a business, possibly a restaurant or a small café.</p>
+        
+        <h2>Career Goals</h2>
+        <ul>
+            <li>To work at a large company as a software engineer.</li>
+            <li>To become a manager with a stable salary.</li>
+            <li>I want to invest in something so that in the future I can have a passive income.</li>
+        </ul>
+        
+        <h2>Personal Goals</h2>
+        <ul>
+            <li>To graduate within 4 years.</li>
+            <li>To become a manager with a stable salary.</li>
+            <li>To have a car, a house, and other assets of my own.</li>
+        </ul>
+    </div>
+
+    <!-- รูปภาพโลโก้ -->
+    <div class="image-m">
+        <img src="resourses/whiteBG-CSTU-LOG_TU_Thicker-1.png" alt="University Logo">
+    </div>
+
+</body>
+</html>

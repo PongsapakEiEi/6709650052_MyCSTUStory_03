@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Journey</title>
+    <link rel="stylesheet" href="mystyle.css"> 
+    <style>
+        /* สไตล์พื้นฐาน */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .main-title {
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .image-m {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-m img {
+            max-width: 150px;
+            width: 100%;
+            height: auto;
+        }
+
+        /* Media Queries สำหรับ Mobile */
+        @media (max-width: 767px) {
+            nav a {
+                padding: 8px;
+                font-size: 0.9em;
+            }
+            .main-title {
+                font-size: 1.8em;
+            }
+            .container {
+                padding: 15px;
+            }
+            h2 {
+                font-size: 1.2em;
+            }
+            p {
+                font-size: 1em;
+            }
+            ul {
+                padding-left: 15px;
+            }
+            .image-m img {
+                max-width: 120px;
+            }
+        }
+
+        /* Media Queries สำหรับ Tablet */
+        @media (min-width: 768px) and (max-width: 1023px) {
+            nav a {
+                padding: 10px 20px;
+            }
+            .main-title {
+                font-size: 2.5em;
+            }
+            .container {
+                padding: 30px;
+            }
+        }
+
+        /* Media Queries สำหรับ Desktop */
+        @media (min-width: 1024px) {
+            nav a {
+                padding: 10px 25px;
+            }
+            .main-title {
+                font-size: 3em;
+            }
+            .container {
+                padding: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- เมนูนำทาง -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="myfuture.html">My Future</a>
+        <a href="myjourney.html">My Journey</a>
+    </nav>
+
+    <!-- เนื้อหาหลักของหน้า -->
+    <div class="container">
+        <h1 class="main-title">My Journey</h1>
+        <p>I recently started studying at Thammasat University, Faculty of Science and Technology, majoring in Computer Science as a first-year student, which was the major I had always wanted to pursue. I worked hard to gather coding-related activities to qualify for the portfolio selection, and in the end, I succeeded in getting accepted.</p>
+        
+        <h2>Education</h2>
+        <p>I started my education from kindergarten to high school at Amatyakul School.</p>
+
+        <h2>Work</h2>
+        <p>I want to work in a career related to my field of study and eventually start my own business.</p>
+
+        <h2>Self-Development</h2>
+        <p>I am constantly learning new things and open to receiving advice and feedback from those around me to improve myself and enhance my skills.</p>
+    </div>
+
+    <!-- รูปภาพโลโก้ -->
+    <div class="image-m">
+        <img src="resourses/whiteBG-CSTU-LOG_TU_Thicker-1.png" alt="University Logo">
+    </div>
+
+</body>
+</html>
